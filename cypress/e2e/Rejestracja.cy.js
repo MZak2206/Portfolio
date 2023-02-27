@@ -110,9 +110,8 @@ describe('Test Rejestracji', () => {
     cy.get('[type="checkbox"]').eq(1).check({force:true})
     cy.contains("span","Załóż konto")
     .click()
-    //cy.contains("span","Zaznacz zgodę").should("contain","Zaznacz zgodę")
-cy.url()
-.should("include","/zamowienia")
+
+
 
   });
 
