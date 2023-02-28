@@ -2,7 +2,7 @@
 
 describe('newsletter-wrong-email', () => {
   it('passes', () => {
-    cy.visit('https://www.mlodysenior.pl/')
+    cy.visit('https://www.mlodysenior.pl/kup-kurs/')
 
     cy.get('a.buy-button')
     .eq(0)
@@ -23,7 +23,7 @@ describe('newsletter-wrong-email', () => {
 
 describe('newsletter', () => {
   it('passes', () => {
-    cy.visit('https://www.mlodysenior.pl/')
+    cy.visit('https://www.mlodysenior.pl/kup-kurs/')
 
     cy.get('a.buy-button')
     .eq(0)
@@ -40,9 +40,9 @@ describe('newsletter', () => {
   })
 })
 
-describe('newsletter-wrong-email', () => {
+describe('newsletter-email-exist', () => {
   it('passes', () => {
-    cy.visit('https://www.mlodysenior.pl/')
+    cy.visit('https://www.mlodysenior.pl/kup-kurs/')
 
     cy.get('a.buy-button')
     .eq(0)
